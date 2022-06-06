@@ -1,0 +1,638 @@
+/* row5 Our Features*/
+.row5 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.blog-classroom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    _position: relative;
+}
+
+/* left side*/
+.classroom-left {
+    position: relative;
+    width: 50%;
+    _border: 1px solid black;
+}
+
+.circleGreen2 {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    background-color: #6CBEB9;
+    position: absolute;
+    top: -70px;
+    left: 50px;
+    z-index: -1;
+}
+
+.circleBlue2 {
+    width: 264px;
+    height: 264px;
+    border-radius: 50%;
+    background-color: #29B9E6;
+    position: absolute;
+    bottom: -90px;
+    right: 40px;
+    z-index: -1;
+}
+
+.circleRed2 {
+    width: 30px;
+    height: 30px;
+    background-color: #E97186;
+    border-radius: 50%;
+    position: absolute;
+    top: -80px;
+    left: 180px;
+}
+
+.circleRed3 {
+    width: 30px;
+    height: 30px;
+    background-color: #E97186;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -80px;
+    right: 280px;
+}
+
+.window {
+    width: 783px;
+    height: 483px;
+    background-color: rgba(244, 244, 244, 0.6);
+    backdrop-filter: blur(15px) saturate(100%) brightness(100%);
+    border-radius: 20px;
+    border-top: 35px solid #E8E2E3;
+    _filter: blur(4px);
+    position: relative;
+    display: flex;
+    justify-self: start;
+    z-index: 1;
+}
+
+.point {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin-left: 8px;
+    margin-top: -25px;
+}
+
+.point1 {
+    background-color: #EE6767;
+    margin-left: 25px;
+}
+
+.point1:hover::before {
+    content: '\292B';
+    color: rgb(87, 87, 87);
+    cursor: pointer;
+}
+
+.point2 {
+    background-color: #F6C566;
+}
+
+.point2:hover::before {
+    content: '-';
+    color: rgb(87, 87, 87);
+    cursor: pointer;
+}
+
+.point3 {
+    background-color: #5BEB7B;
+}
+
+.point3:hover::before {
+    content: '\2921';
+    color: rgb(87, 87, 87);
+    cursor: pointer;
+}
+
+.teacher-blog {
+    position: absolute;
+    top: 70px;
+    left: 30px;
+    z-index: 2;
+}
+
+.teacher-photo {
+    position: relative;
+}
+
+.teacher-photo img {
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.9) 0px 8px 24px;
+}
+
+.subscript {
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    height: 22px;
+    background-color: #c9d3e759;
+    border-radius: 5.65px;
+    color: #fff;
+    font-size: 11px;
+    padding: 0 15px;
+}
+
+.teacher-subscript {
+    font-size: 11px;
+    position: absolute;
+    bottom: 135px;
+    left: 50px;
+}
+
+.student1-subscript,
+.student2-subscript,
+.student3-subscript,
+.student4-subscript {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.student1-subscript {
+    width: 150px;
+}
+
+.student1-subscript img,
+.student2-subscript img,
+.student3-subscript img,
+.student4-subscript img {
+    border-radius: 0 !important;
+}
+
+.student2-subscript {
+    width: 120px;
+}
+
+.student3-subscript {
+    width: 150px;
+}
+
+.student4-subscript {
+    width: 170px;
+    padding: 15px 14px;
+    font-size: 14px;
+}
+
+.subscript img {
+    display: block;
+    width: 10px;
+    _margin-left: 10px;
+}
+
+.subscript span {
+    padding: 5px 10px;
+    background-color: #3793FF;
+    border-radius: 5.55px;
+    margin: 0 5px;
+    font-size: 10px;
+}
+
+.teacher-button button {
+    margin: 30px 7px;
+    width: 153.2px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #fff;
+    border-radius: 51.07px;
+    font-size: 20px;
+    _box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
+}
+
+.greenBtn {
+    height: 51.07px;
+    background-color: #58A5A0;
+    box-shadow: 0px 8.51126px 20.427px rgba(52, 101, 225, 0.3);
+}
+.greenBtn:hover{
+    box-shadow: 0px 5px 10px rgba(41, 81, 180, 0.3);
+    background-color: #65bbb6;
+    transition: all .5s ease;
+}
+
+.roseBtn {
+    height: 65px;
+    background-color: #E0677C;
+    box-shadow: 0px 8.51126px 20.427px rgba(202, 47, 93, 0.3);
+    border: 7px solid #F7D5DF;
+}
+
+.roseBtn img {
+    width: 17.2px;
+    margin-top: 5px;
+}
+.roseBtn:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(202, 47, 93, 0.3);
+    border: 7px solid #f5e7eb;
+    transition: all .5s ease;
+}
+
+.students-blog {
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    _border: 1px solid black;
+}
+
+.photoImg img {
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.3) 10px 8px 24px;
+}
+
+.hand {
+    position: absolute;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    top: 250px;
+    left: -60px;
+}
+
+.hand::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 93px;
+    height: 93px;
+    border-radius: 50%;
+    background-color: rgba(244, 244, 244, 0.9);
+    opacity: 0.8;
+    box-shadow: 2px 10px 34px rgba(15, 19, 39, 0.15);
+    z-index: 4;
+}
+
+.hand::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+    background-color: #F9F9F9;
+    z-index: 4;
+}
+
+.hand img {
+    z-index: 5;
+    position: absolute;
+    top: 22px;
+    left: 30px;
+}
+.hand img:hover{
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px; 
+}
+
+.student1 {
+    position: absolute;
+    top: 70px;
+    left: 0;
+}
+
+.student2 {
+    position: absolute;
+    top: 40px;
+    left: 220px;
+}
+
+.student3 {
+    position: absolute;
+    top: 270px;
+    left: 0;
+}
+
+.student4 {
+    position: absolute;
+    top: 270px;
+    left: 200px;
+}
+
+/* right  side*/
+.classroom-right {
+    width: 542px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.classroom-right h3 {
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.blog-one,
+.blog-two,
+.blog-three {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.logoWin {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-right: 50px;
+}
+
+.logoWin img {
+    width: 25px;
+    margin-left: 18px;
+}
+
+.logoWin:hover {
+    -webkit-box-shadow: 0px 0px 21px -10px rgba(0, 0, 0, .3);
+    box-shadow: 0px 0px 21px -10px rgba(0, 0, 0, .3);
+}
+
+.textWin {
+    width: 443px;
+}
+
+.textWin p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 37px;
+}
+
+/* animation */
+@keyframes shake {
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+/* mobile css */
+
+@media screen and (max-width:1600px) {
+    .blog-classroom {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 0;
+    }
+
+    .classroom-right {
+        margin: 100px 0;
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .teacher-photo img {
+        width: 80%;
+        transition: all .5s ease-out;
+    }
+
+    .teacher-button button {
+        width: 140px;
+        font-size: 18px;
+        transition: all .5s ease-out;
+    }
+
+    .roseBtn img {
+        width: 16px;
+    }
+
+    .student1 {
+        left: 50px;
+        transition: all .5s ease-out;
+    }
+
+    .student2 {
+        _display: none;
+        left: 250px;
+        transition: all .5s ease-out;
+    }
+
+    .student3 {
+        left: 50px;
+        transition: all .5s ease-out;
+    }
+
+    .student4 {
+        top: 240px;
+        left: 250px;
+        transition: all .5s ease-out;
+    }
+
+    .hand {
+        left: 20px;
+        transition: all .5s ease-out;
+    }
+}
+
+@media screen and (max-width:1155px) {
+    .window {
+        width: 700px;
+        transition: all .5s ease-out;
+    }
+
+    .teacher-photo img {
+        width: 60%;
+        transition: all .5s ease-out;
+    }
+
+    .teacher-button button {
+        width: 120px;
+        font-size: 16px;
+        transition: all .5s ease-out;
+    }
+
+    .greenBtn {
+        height: 41px;
+        transition: all .5s ease-out;
+    }
+
+    .roseBtn {
+        height: 55px;
+        transition: all .5s ease-out;
+    }
+
+    .roseBtn img {
+        width: 15px;
+    }
+
+    .teacher-subscript,
+    .subscript {
+        font-size: 7px;
+        transition: all .5s ease-out;
+    }
+
+    .subscript img {
+        width: 7px !important;
+    }
+
+    .student1 {
+        left: 20px;
+        transition: all .5s ease-out;
+    }
+
+    .student1 img,
+    .student3 img {
+        _width: 80%;
+        width: 120px;
+        transition: all .5s ease-out;
+    }
+
+    .student1-subscript {
+        width: 100px;
+        left: 30px;
+        transition: all .5s ease-out;
+    }
+
+    .student2 {
+        left: 190px;
+        transition: all .5s ease-out;
+    }
+
+    .student2 img {
+        width: 160px;
+        transition: all .5s ease-out;
+    }
+
+    .student2-subscript {
+        width: 100px;
+    }
+
+    .student3-subscript {
+        width: 105px;
+        left: 30px;
+        transition: all .5s ease-out;
+    }
+
+    .student3 {
+        top: 220px;
+        left: 20px;
+        transition: all .5s ease-out;
+    }
+
+    .student4 {
+        left: 190px;
+    }
+
+    .student4 img {
+        width: 190px;
+        transition: all .5s ease-out;
+    }
+
+    .student4-subscript {
+        width: 135px;
+        font-size: 10px;
+        transition: all .5s ease-out;
+    }
+
+    .hand {
+        left: 0;
+        top: 190px;
+        transition: all .5s ease-out;
+    }
+
+    .hand::before {
+        width: 63px;
+        height: 63px;
+        transition: all .5s ease-out;
+    }
+
+    .hand::after {
+        width: 43px;
+        height: 43px;
+        transition: all .5s ease-out;
+        _border: 1px solid red;
+    }
+
+    .hand img {
+        width: 20px;
+        top: 19px;
+        left: 23px;
+        transition: all .5s ease-out;
+    }
+}
+
+@media screen and (max-width:1040px) {
+    .teacher-button button {
+        width: 100px;
+        font-size: 14px;
+        transition: all .5s ease-out;
+    }
+
+    .subscript span {
+        font-size: 7px;
+    }
+
+    .greenBtn {
+        height: 39px;
+    }
+
+    .roseBtn {
+        height: 51px;
+    }
+
+    .roseBtn img {
+        width: 12px;
+    }
+}
+@media screen and (max-width:965px){
+    .student1, .student3{
+        left: 130px;
+    }
+    .student2 img, .student4 img{
+        width: 120px; 
+    }
+    .student3{
+        top: 190px;
+    }
+    .student2 {
+        left: -50px;
+        top: 340px;
+    }
+    .student4{
+        top: 340px;
+        left: 140px;
+    }
+    .window{
+        width: 530px;
+    }
+    .hand{
+        display: none;
+    }
+}

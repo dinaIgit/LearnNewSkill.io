@@ -1,0 +1,113 @@
+/*row10 400+ educational tools*/
+.row10{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.row10Left, .row10Right{
+    width: 50%;
+}
+.row10Left{
+    position: relative;
+    margin-left: 150px;
+    _border: 1px solid black;
+}
+.box1, .box2, .box3, .box4{
+    position: absolute;
+}
+.box1{
+    left: 30px;
+    top: 0;
+}
+.box2{
+    left: 350px;
+    top: 50px;
+}
+.box3{
+    left: 90px;
+    top: 270px;
+}
+.box4{
+    left: 390px;
+    top: 280px;
+}
+.row10Right{
+display: flex;
+flex-direction: column;
+}
+.titleRow10{
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    margin-bottom:30px;
+}
+.lineRose{
+    display: flex;
+    width: 80px;
+    border: 1px solid #EEA4C0;
+}
+.textRow10{
+    font-family: 'Nunito Sans' sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #C96B8F;
+    letter-spacing: 0.2em;
+    margin-left: 50px;
+}
+.row10Right h4{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 160%;
+}
+.row10Right p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    line-height: 43px;
+    font-weight: 400;
+    color: #696984;
+    margin: 50px 0;
+}
+.row10Right button{
+    width: 280px;
+    height: 80px;
+    background-color: transparent;
+    border: 1px solid #D77299;
+    box-sizing: border-box;
+    border-radius: 80px;
+    font-size: 22px;
+    line-height: 39px;
+    color: #EC72A1;
+}
+.row10Right button:hover{
+    background-color: black;
+    color: white;
+}
+.pictureImg img{
+    width: 300px;
+    position: absolute;
+    _clip: rect(0px, 11px, 200px, 211px);
+}
+/* mobile css */
+@media screen and (max-width:1395px){
+    .row10{
+        flex-direction: column;
+        align-items: center;
+    }
+    .row10Left{
+        height: 500px;
+    }
+}
+@media screen and (max-width:800px){
+    .row10Left{
+        margin-left: 0;
+    }
+    .box2{
+        left: 300px;
+    }
+    .box4{
+        left: 320px;
+    }
+}

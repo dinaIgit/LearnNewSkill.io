@@ -1,0 +1,247 @@
+/*row7 Assignments, Quizzes...*/
+.row7 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    margin-bottom: 150px;
+}
+
+.row7BoxLeft {
+    width: 50%;
+    height: 565px;
+    _border: 1px solid black;
+    margin-left: 155px;
+    margin-right: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.circleGreenR7 {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #58A5A0;
+    position: absolute;
+    top: -25px;
+    left: -39px;
+    z-index: 1;
+}
+
+.circleOrangR7 {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: #F3A268;
+    position: absolute;
+    top: -50px;
+    left: 50px;
+    z-index: 1;
+}
+
+.circleBlueR7 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #26A7D1;
+    position: absolute;
+    bottom: -30px;
+    left: -15px;
+    z-index: 1;
+}
+
+.circleRedR7 {
+    width: 17px;
+    height: 17px;
+    background-color: #F3538C;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    right: 220px;
+    z-index: 1;
+}
+
+.question-blog {
+    width: 466px;
+    height: 563px;
+    border-radius: 18px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 2;
+    padding: 30px;
+    box-shadow: 0px 9.10294px 43.6941px rgba(40, 43, 111, 0.1);
+}
+
+.question-blog h4 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 49px;
+    color: #55578D;
+    margin: 30px 0;
+}
+
+.question-blog img {
+    width: 44px;
+}
+
+.ques1 {
+    width: 175px;
+    height: 48px;
+    background-color: #CCECEA;
+    border-radius: 73px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #61A6A2;
+    border: none;
+}
+
+.ques1:hover {
+    background: #61A6A2;
+    color: #fff;
+    box-shadow: 0px 2px 28px -10px rgba(0, 0, 0, .3);
+    transition: all .5s ease;
+}
+
+/* animation button */
+@-webkit-keyframes hvr-pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+@keyframes hvr-pulse {
+    25% {
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    75% {
+        -webkit-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+}
+
+.no,
+.yes {
+    background-color: #fff;
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    box-shadow: 0px 3.64118px 40.0529px rgba(47, 50, 125, 0.1);
+    position: absolute;
+}
+
+.no {
+    right: 30px;
+    top: -30px;
+    transform: translateZ(0);
+    display: inline-block;
+    vertical-align: middle;
+}
+.no:hover, .yes:hover{
+    animation-name: hvr-pulse;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+.yes {
+    right: -30px;
+    top: 15px;
+}
+
+.city-box {
+    width: 518.42px;
+    height: 290.4px;
+    border-radius: 18px;
+    position: absolute;
+    z-index: 3;
+    background: url('./../img/image13.png') no-repeat;
+    background-size: cover;
+    box-shadow: 0px 3.64118px 40.0529px rgba(47, 50, 125, 0.1);
+}
+
+.answer-blog {
+    width: 365px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    padding: 10px;
+    border-radius: 18px;
+    background-color: #fff;
+    box-shadow: 0px 18.2059px 52.7971px rgba(40, 43, 111, 0.08);
+    position: absolute;
+    bottom: -30px;
+    left: 250px;
+    z-index: 4;
+}
+.answer-blog:hover{
+    -webkit-box-shadow: 0px -3px 16px -7px rgba(0,0,0,.3);
+    box-shadow: 0px -3px 16px -7px rgba(0,0,0,.3);
+}
+
+.answer-blog img {
+    width: 70px;
+    position: relative;
+}
+
+.title-answer {
+    width: 190px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #41BE90;
+    line-height: 32px;
+    margin-left: 30px;
+    position: relative;
+    z-index: 4;
+}
+
+.circleAquaRow7 {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #D8F9ED;
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    z-index: 3;
+}
+
+/* button effect */
+.pulse:hover,
+.pulse:focus {
+    animation: pulse 1s;
+    box-shadow: 0 0 0 2em rgba(#fff, 0);
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 var(--hover);
+    }
+}
+
+@media screen and (max-width:1375px){
+    .row7{
+        flex-direction: column;
+        margin: 0;
+        padding: 0 0 30px 0;
+        border-bottom: 1px solid #eee;
+    }
+}
+@media screen and (max-width:1100px){
+    .answer-blog{
+        left: 170px;
+    }
+    .row7BoxLeft{
+        margin-left: 0;
+    }
+}

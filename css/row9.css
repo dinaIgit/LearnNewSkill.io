@@ -1,0 +1,277 @@
+/* row9  One-on-One*/
+.row9{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topRow9{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding-left: 100px;
+}
+.windowsRow9{
+    position: relative;
+    width: 50%;
+    height: 380px;
+    _border: 1px solid #54AAA5;
+    z-index: 1;
+}
+.windowBackground{
+    position: absolute;
+    top: 10px;
+    z-index: 2;
+}
+.circleGreenRow9{
+    position: absolute;
+    width: 113px;
+    height: 113px;
+    border: 18px solid #54AAA5;
+    top: -18px;
+    right: 45px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.triangleRow9{
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    z-index: 1;
+}
+.rectangleRoseRow9{
+    position: absolute;
+    background-color: #F7B0CB;
+    width: 197px;
+    height: 193px;
+    border-radius: 19px;
+    bottom: -14px;
+    left: -17px;
+    z-index: 1;
+}
+.windowDiscussionRow9{
+    width: 592px;
+    height: 369px;
+    border-radius: 19px;
+    border-top: 20px solid #EAEAEA;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    left: 100px;
+    bottom: -94px;
+    box-shadow: 0px 18.8302px 47.0755px rgba(47, 50, 125, 0.1);
+    z-index: 4;
+}
+.pointR9{
+    width: 12.5px;
+    height: 12.5px;
+    border-radius: 50%;
+    position: absolute;
+    color: rgb(87, 87, 87);
+    font-size: 14px;
+}
+.pointRed{
+    background-color: #EE6767;
+    top: -16px;
+    left: 20px;
+    padding-left: 3px;
+    padding-bottom: 2px;
+}
+.pointRed:hover::before{
+    content: '\292B';
+    cursor: pointer;
+}
+.pointOrange{
+    background-color: #F6C566;
+    top: -16px;
+    left: 39px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+}
+.pointOrange:hover::before{
+    content:'-';
+    cursor: pointer;
+}
+.pointGreen{
+    background-color: #5BEB7B;
+    cursor:pointer;
+    top: -16px;
+    left: 58px;
+    padding-left: 2px;
+    font-size: 13px;
+    padding-bottom: 2px;
+}
+.pointGreen:hover::before{
+    content:'\2921';
+    cursor: pointer;
+}
+
+.discussionLeft{
+    width: 50%;
+    text-align: center;
+}
+.avatarRow9Left img{
+    width: 70%;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.discussionLeft h3{
+    font-size: 22px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #696984;
+    line-height: 36px;
+    font-weight: 600;
+    margin: 25px 0 5px 45px;
+    text-align: left;
+}
+.discussionLeft p{
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: left;
+    font-weight: 600;
+    color: #A8A8B6;
+    margin-left: 45px;
+}
+.discussionRight{
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+.avatarRow9Right img{
+    width: 70%;
+    border-radius: 20px;
+    margin-top: 30px;
+    
+}
+.discussion{
+    width: 198px;
+    height: 55px;
+    border-radius:56px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    background: linear-gradient(105.5deg, #F55454 19.57%, #E6422B 78.85%);
+    margin-top: 30px;
+    box-shadow: 0px 18.8302px 47.0755px rgba(129, 76, 43, 0.2);
+}
+.discussion:hover{
+    box-shadow: 0px 7px 27.0755px rgba(129, 76, 43, 0.2);
+    background: #000;
+    _border: 3px solid red;
+    margin-top: 30px;
+    transition: all .5s ease;
+}
+.separator{
+    height: 195px;
+    width: 1px;
+    border-right: 2px solid #D5E2FB;
+    margin-top: 33px;
+}
+.subRow9{
+    position: absolute;
+    top: 190px;
+    left: 50px;
+}
+.teamRow9{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    z-index: 5;
+}
+.teamRow9::before{
+    content: '';
+    width: 101px;
+    height: 101px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    background: #FFFFFF;
+    opacity: 0.7;
+    box-shadow: 0px 9.41509px 45.1925px rgba(40, 43, 111, 0.15);
+    transform: rotate(-6.16deg);
+    z-index: 5;
+}
+.teamRow9::after{
+    content: '';
+    width: 78.74px;
+    height: 78.74px;
+    position: absolute;
+    left: 10px;
+    top: 10.3px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    box-shadow: 0px 9.41509px 45.1925px rgba(40, 43, 111, 0.15);
+    transform: rotate(-6.16deg);
+    z-index: 5;
+}
+.teamRow9 img{
+    position: absolute;
+    top: 31px;
+    left: 27px;
+    z-index: 6;
+}
+.teamRow9 img:hover{
+    cursor: pointer;
+    animation-name: hvr-pulse;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+/* See more features button */
+.bottomRow9 button{
+    width: 280px;
+    height: 80px;
+    border-radius: 80px;
+    border: 1px solid #EA5E94;
+    background-color: transparent;
+    font-family: 'Nunito+Sans', sans-serif;
+    color: #EA5E94;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 100px auto;
+}
+.bottomRow9 button:hover{
+    color: #fff;
+    background-color: #000;
+    transition: all .5s ease;
+}
+@media screen and (max-width:1395px){
+    .topRow9{
+        flex-direction: column;
+        transition: all .3s ease;
+        padding: 0;
+    }
+    .windowsRow9{
+        margin: 70px 0;
+        left: -50px;
+    }
+    .bottomRow9{
+        margin-top: -150px;
+        align-items: center;
+        text-align: center;
+    }
+    .circleGreenRow9{
+        right: -10px;
+        transition: all .5s ease;
+    }
+    .triangleRow9{
+        right: -30px;
+        transition: all .5s ease;
+    }
+    .windowDiscussionRow9{
+        left: -25px;
+    }
+    .rectangleRoseRow9{
+        left: -50px;
+        bottom: -120px;
+    }
+    .teamRow9{
+        left: -50px;
+    }
+}

@@ -1,0 +1,41 @@
+/* row6 Tools For Teachers... */
+.row6{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+}
+.schoolgirl{
+    width: 50%;
+}
+.textArticle{
+    width: 500px;
+}
+.textArticle h3{ 
+    font-size: 38px;
+    line-height: 60px;
+}
+.textArticle p{
+    font-size:20px;
+}
+@media screen and (max-width:1500px){
+    .row6{
+        flex-direction: column;
+        margin-top: -70px;
+    }
+    .textArticle{
+        margin-bottom: 50px;
+    }
+    .schoolgirl img{
+        width: 98%;
+        transition: all .5s ease;
+    }
+}
+@media screen and (max-width:1000px){
+    .schoolgirl img{
+        width: 95%;
+        transition: all .5s ease;
+    }
+}

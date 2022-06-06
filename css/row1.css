@@ -1,0 +1,320 @@
+/* row1 Learn New Skill Gain...*/
+.row1-home {
+    width: 100vw;
+    height: 100vh;
+    margin-top: -120px;
+    background-color: #fde5e9;
+    padding-top: 250px;
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    background: url('../img/RectangleRose.png') no-repeat;
+    background-size: cover;
+    _overflow: hidden;
+}
+
+.home-left {
+    width: 50%;
+    position: relative;
+    z-index: 3;
+}
+
+.title {
+    width: 700px;
+    position: relative;
+}
+
+.title h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 90px;
+}
+
+.title img {
+    position: absolute;
+    width: 382px;
+    bottom: 190px;
+    left: 155px;
+}
+
+.title p {
+    width: 500px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 24px;
+    line-height: 38px;
+    color: #464646;
+    margin: 10px 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bottomTitle {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    _border: 1px solid #000;
+}
+
+.btnJoin {
+    font-size: 20px;
+    font-weight: 500;
+    width: 200px;
+    height: 60px;
+    background-color: #EA5972;
+    color: white;
+    border-radius: 80px;
+}
+
+.btnJoin:hover {
+    background-color: #fff;
+    color: #000;
+    transition: all 0.5s ease;
+}
+
+.watch {
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.playBtn {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    padding-top: 2px;
+    padding-left: 4px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.playBtn:hover {
+    background-color: #000;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.home-right {
+    width: 50%;
+    height: 100%;
+    _border: 1px solid #000;
+    position: relative;
+    z-index: 3;
+
+}
+
+.home-right img {
+    width: 150%;
+    position: absolute;
+    bottom: 20px;
+    right: 70px;
+}
+
+.calendar {
+    width: 250px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(25px) saturate(100%) brightness(100%);
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: -90px;
+    margin-top: 90px;
+}
+.calendar:hover, .mailCon:hover, .userEx:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 25px -9px rgba(0,0,0,.3);
+    box-shadow: 0px 0px 25px -9px rgba(0,0,0,.3);
+    transition: all 1s ease;
+}
+
+.text b,
+.textBox b,
+.mailText b {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #595959;
+    display: block;
+    _padding-bottom: 5px;
+}
+
+.text span,
+.textBox span,
+.mailText span {
+    color: #595959;
+}
+
+.blue {
+    width: 55px;
+    height: 55px;
+    background-color: #23BDEE;
+    position: relative;
+    border-radius: 18px;
+}
+
+.blue img {
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    left: 13px
+}
+
+.userEx {
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+    height: 170px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px) saturate(100%) brightness(100%);
+    border-radius: 20px;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: -100px;
+    position: relative;
+}
+
+.avatar img {
+    width: 50px;
+    position: absolute;
+    bottom: 93px;
+    right: 280px;
+}
+
+.textBox button {
+    background-color: black;
+    color: white;
+    width: 130px;
+    height: 38px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 25px;
+    border-radius: 80px;
+    font-size: 16px;
+}
+
+.textBox button:hover {
+    background-color: aliceblue;
+    color: black;
+    font-weight: 500;
+    transition: all .5s ease;
+}
+
+.mailCon {
+    width: 350px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px) saturate(100%) brightness(100%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    margin-left: 330px;
+    margin-top: -250px;
+}
+
+.mailImg img {
+    position: absolute;
+    width: 50px;
+    margin-bottom: 5px;
+    margin-right: 210px;
+}
+
+.pntImg img {
+    width: 30px;
+    position: absolute;
+    margin-bottom: 40px;
+    margin-right: -50px;
+}
+
+.voice {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    bottom: 390px;
+    left: 500px;
+    _border: 1px solid black;
+    _box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.voice:hover{
+    cursor: pointer;
+    animation-name: hvr-pulse;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+.voice img {
+    width: 50px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+@media screen and (max-width:1373px) {
+    .row1-home {
+        display: flex;
+        flex-direction: column;
+        height: 150%;
+        margin-bottom: 150px;
+    }
+
+    .calendar {
+        margin-left: 30px;
+        margin-top: 30px;
+        background-color: rgba(240, 248, 255, 0.753);
+    }
+
+    .userEx {
+        margin-top: 10px;
+        margin-left: -30px;
+        background-color: rgba(240, 248, 255, 0.753);
+        transition: all .5s ease-out;
+    }
+
+    .voice {
+        bottom: 270px;
+        right: 55px;
+        transition: all .5s ease-out;
+    }
+
+    .mailCon {
+        background-color: rgba(240, 248, 255, 0.753);
+    }
+}
+
+@media screen and (max-width:1336px){
+    .title img{
+        bottom:220px;
+    }
+}
+@media screen and (max-width:800px){
+    .home-right{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+    .calendar{
+        margin: 0;
+        top: 100px;
+        left: 0;
+    }
+    .userEx{
+        margin: 0;
+        top: 110px;
+    }
+    .voice{
+        margin: 0;
+        left: 0;
+        margin-top:20px;
+    }
+    .mailCon{
+        margin: 0;
+        left: 0;
+        top: 50px;
+    }
+}

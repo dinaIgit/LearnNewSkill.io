@@ -1,0 +1,132 @@
+/* row12 Lastest News and Resources */
+
+.row12{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+}
+.row12 h2{
+    font-size: 40px;
+    font-weight: 600;
+    align-items: center;
+    text-align: center;
+    line-height: 75px;
+}
+.row12 h4{
+    font-size: 22px;
+    text-align: center;
+    color: #696984;
+    font-weight: 400;
+    line-height: 42px;
+    margin-bottom: 100px;
+}
+.row12Content{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    color: #000;
+}
+.row12Left, .row12Right{
+    width: 49%;
+    font-family: 'Poppins', sans-serif;
+}
+.row12Left{
+    _border: 1px solid black;
+    margin-left: 150px;
+}
+.row12Left img{
+    width: 620px;
+}
+.btnNews button{
+    width: 130px;
+    height: 40px;
+    border-radius: 80px;
+    background-color: #DC5E74;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin: 30px 0;
+}
+.btnNews button:hover{
+    background: black;
+}
+.articleRow12Left{
+    width: 90%;
+    margin-top: 0;
+    margin-left: 0;
+    font-size: 22px;
+    line-height: 44px;
+}
+.row12Left span{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #696984;
+    line-height: 36px;
+    letter-spacing: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.readMore{
+    width: 110px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #444444;
+}
+.readMore:hover{
+    color: red;
+    text-decoration:none;
+}
+.itemRight{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:40px;
+}
+.itemRight img{
+    width: 280px;
+    margin-right: 40px;
+}
+
+.boldText{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.thinText{
+    display: block;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 2%;
+    margin-top: 20px;
+}
+/* mobile css */
+@media screen and (max-width:1425px){
+    .row12Content{
+        flex-direction: column;
+        align-items: center;
+        transition: all .5s ease;
+    }
+    .row12Left{
+        margin-left: 0;
+        margin-bottom: 50px;
+    }
+    .row12Right{
+        margin-bottom: 50px;
+    }
+    .itemRight img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media screen and (max-width:1200px){
+    .itemRight{
+        flex-direction: column;
+    }
+    .itemRight img{
+        margin-bottom: 30px;
+    }
+}
